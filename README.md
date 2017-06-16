@@ -1,8 +1,9 @@
 # QRCode.js
-QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.
-QRCode.js has no dependencies.
+QRCode.js是用于制作QRCode的JavaScript库。QRCode.js支持在DOM中使用HTML5画布和表格标签的跨浏览器。
 
-## Basic Usages
+QRCode.js没有依赖关系。
+
+## 基本用法
 ```
 <div id="qrcode"></div>
 <script type="text/javascript">
@@ -10,7 +11,7 @@ new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie
 </script>
 ```
 
-or with some options
+或
 
 ```
 <div id="qrcode"></div>
@@ -26,21 +27,20 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 </script>
 ```
 
-and you can use some methods
+你可以使用一些方法
 
 ```
 qrcode.clear(); // clear the code.
 qrcode.makeCode("http://naver.com"); // make another code.
 ```
 
-## Browser Compatibility
+## 浏览器兼容性
 IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.
 
 ## License
 MIT License
 
-## Contact
+## 联系
 twitter @davidshimjs
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/davidshimjs/qrcodejs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
