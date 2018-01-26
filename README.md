@@ -4,7 +4,7 @@ QRCode.js是用于制作QRCode的JavaScript库。QRCode.js支持在DOM中使用H
 QRCode.js没有依赖关系。
 
  - 效果图
- <img src="show/1.png" >
+ <img src="show/1.png" border="1" >
   
 ## 基本用法
 ```
