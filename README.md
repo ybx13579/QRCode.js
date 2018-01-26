@@ -17,7 +17,7 @@ new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie
 
 或
 
-```
+```html
 <div id="qrcode"></div>
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -33,7 +33,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 
 你可以使用一些方法
 
-```
+```javascript
 qrcode.clear(); // clear the code.
 qrcode.makeCode("http://naver.com"); // make another code.
 ```
