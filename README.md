@@ -7,7 +7,8 @@ QRCode.js没有依赖关系。
  <img src="show/1.png"  >
   
 ## 基本用法
-```
+
+```html
 <div id="qrcode"></div>
 <script type="text/javascript">
 new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
